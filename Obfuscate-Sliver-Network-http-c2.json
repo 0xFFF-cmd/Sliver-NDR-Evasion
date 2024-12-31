@@ -1,0 +1,111 @@
+{
+    "implant_config": {
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Safari/605.1.15",
+        "chrome_base_version": 105,
+        "macos_version": "11_6_5",
+        "url_parameters": null,
+        "headers": null,
+        "max_files": 12,
+        "min_files": 4,
+        "max_paths": 10,
+        "min_paths": 3,
+        "stager_file_ext": ".ttf",
+        "stager_files": [
+            "Arial-Regular",
+            "Roboto-Bold",
+            "OpenSans-Italic",
+            "Montserrat-Regular",
+            "Lato-Medium"
+        ],
+        "stager_paths": [
+            "fonts",
+            "styles",
+            "public",
+            "static/assets"
+        ],
+        "poll_file_ext": ".json",
+        "poll_files": [
+            "bootstrappp",
+            "bootstrap.mine",
+            "jquery.mine",
+            "jqueryab",
+            "config",
+            "manifest",
+            "routes",
+            "settings",
+            "locale-en",
+            "bundle",
+            "vendors"
+        ],
+        "poll_paths": [
+            "data",
+            "configurations",
+            "resources",
+            "locales",
+            "static/scripts",
+            "datanew",
+            "configurationsaa",
+            "resourcesab",
+            "localesname",
+            "static/scri"
+        ],
+        "start_session_file_ext": ".asp",
+        "session_file_ext": ".aspx",
+        "session_files": [
+            "authenticate",
+            "dashboard",
+            "process",
+            "submit",
+            "verify",
+            "callback",
+            "verifynewuser",
+            "callbackintohome",
+            "entry"
+        ],
+        "session_paths": [
+            "services",
+            "user",
+            "auth",
+            "login",
+            "authentication",
+            "api/v2",
+            "modules",
+            "servicesa",
+            "usernew",
+            "authlocal",
+            "loginauth",
+            "authenticationauth",
+            "api/v3",
+            "modu"
+        ],
+        "close_file_ext": ".ico",
+        "close_files": [
+            "favicon-16x16",
+            "logo",
+            "brand-icon"
+        ],
+        "close_paths": [
+            "dynamic",
+            "aaa",
+            "values",
+            "pictures",
+            "poc",
+            "photo",
+            "ion",
+            "pgp"
+        ]
+    },
+    "server_config": {
+        "random_version_headers": true,
+        "headers": [
+        ],
+        "cookies": [
+            "SessionID",
+            "JSESSIONID",
+            "XSRF-TOKEN",
+            "AWSALBTG",
+            "Secure-Token",
+            "csrftoken"
+        ]
+    }
+}
